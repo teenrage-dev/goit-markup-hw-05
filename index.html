@@ -17,14 +17,14 @@
             <a href="/" lang="en" class="link logo">Web<span class="header-logo-text">Studio</span></a>
             <nav class="header-nav">
             <ul class="list header-list">
-                <li class="header-item"><a href="./index.html" class="link header-link header-link-active">Студия</a></li>
-                <li class="header-item"><a href="./portfolio.html" class="link header-link">Портфолио</a></li>
-                <li class="header-item"><a href="/" class="link header-link">Контакты</a></li>
+                <li class="header-item"><a href="./index.html" class="link header-link header-link-active transition  current">Студия</a></li>
+                <li class="header-item"><a href="./portfolio.html" class="link header-link transition">Портфолио</a></li>
+                <li class="header-item"><a href="/" class="link header-link transition">Контакты</a></li>
             </ul>
             </nav>
             <ul class="list contacts-list">
                 <li class="contacts-item">
-                        <a href="mailto:info@devstudio.com" lang="en" class="link header-link">
+                        <a href="mailto:info@devstudio.com" lang="en" class="link header-link transition">
                         <span  class="contacts-item-container">
                             <svg class=".contacts-social-icon" width="16" height="12">
                                 <use href="./images/icons.svg#contacts-icon-1"></use>
@@ -34,7 +34,7 @@
                         </a>
                 </li>
                 <li class="contacts-item">
-                    <a href="tel:+380961111111" class="link header-link">
+                    <a href="tel:+380961111111" class="link header-link transition">
                     <span  class="contacts-item-container">
                         <svg class=".contacts-social-icon" width="10" height="16">
                             <use href="./images/icons.svg#contacts-icon-2"></use>
@@ -52,11 +52,7 @@
         <section class="hero">
             <div class="container hero-container">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
-                <div class="backdrop" data-modal>
-                    
-                </div>
-                <button data-modal-close>Закрыть</button>
+                <button type="button" class="hero-button transition" data-modal-open>Заказать услугу</button>
             </div>
         </section>
         <!--Нашы плюси-->        
@@ -108,9 +104,30 @@
             <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="list doing-list">
-                    <li class="doing-item"><img src="./images/doing-img-1.jpg" alt="Разработка сайту на ноутбуке" width="370" height="294"></li>
-                    <li class="doing-item"><img src="./images/doing-img-2.jpg" alt="Разработка дизайна мобильного приложения" width="370" height="294"></li>
-                    <li class="doing-item"><img src="./images/doing-img-3.jpg" alt="Подбор цветового решения" width="370" height="294"></li>
+                    <li class="doing-item">
+                        <div class="doing-item-wrap">
+                            <img src="./images/doing-img-1.jpg" alt="Разработка сайту на ноутбуке" width="370" height="294">
+                                    <p class="doing-img-text">
+                                        Десктопные приложения
+                                    </p>
+                        </div>
+                    </li>
+                    <li class="doing-item">
+                        <div class="doing-item-wrap">
+                            <img src="./images/doing-img-2.jpg" alt="Разработка дизайна мобильного приложения" width="370" height="294">
+                                    <p class="doing-img-text">
+                                        Мобильные приложения
+                                    </p>
+                        </div>
+                    </li>
+                    <li class="doing-item">
+                        <div class="doing-item-wrap">
+                            <img src="./images/doing-img-3.jpg" alt="Подбор цветового решения" width="370" height="294">
+                                <p class="doing-img-text">
+                                    Дизайнерские решения
+                                </p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -126,28 +143,28 @@
                                     <p lang="en" class="team-item-text">Product Designer</p>
                                         <ul class="social-list list">
                                             <li class="social-item">
-                                                <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                                <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                     <svg class="social-icon" width="20" height="20">
                                                         <use href="./images/icons.svg#social-links-icon-1"></use>
                                                     </svg>
                                                 </a>
                                             </li>
                                             <li class="social-item">
-                                                <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                                <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                     <svg class="social-icon" width="20" height="20">
                                                         <use href="./images/icons.svg#social-links-icon-2"></use>
                                                     </svg>
                                                 </a>
                                             </li>
                                             <li class="social-item">
-                                                <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                                <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                     <svg class="social-icon" width="20" height="20">
                                                         <use href="./images/icons.svg#social-links-icon-3"></use>
                                                     </svg>
                                                 </a>
                                             </li>
                                             <li class="social-item">
-                                                <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                                <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                     <svg class="social-icon" width="20" height="20">
                                                         <use href="./images/icons.svg#social-links-icon-4"></use>
                                                     </svg>
@@ -163,28 +180,28 @@
                                     <p lang="en" class="team-item-text">Frontend Developer</p>
                                     <ul class="social-list list">
                                         <li class="social-item">
-                                            <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                            <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                 <svg class="social-icon" width="20" height="20">
                                                     <use href="./images/icons.svg#social-links-icon-1"></use>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="social-item">
-                                            <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                            <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                 <svg class="social-icon" width="20" height="20">
                                                     <use href="./images/icons.svg#social-links-icon-2"></use>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="social-item">
-                                            <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                            <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                 <svg class="social-icon" width="20" height="20">
                                                     <use href="./images/icons.svg#social-links-icon-3"></use>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="social-item">
-                                            <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                            <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                 <svg class="social-icon" width="20" height="20">
                                                     <use href="./images/icons.svg#social-links-icon-4"></use>
                                                 </svg>
@@ -200,28 +217,28 @@
                                     <p lang="en" class="team-item-text">Marketing</p>
                                     <ul class="social-list list">
                                         <li class="social-item">
-                                            <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                            <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                 <svg class="social-icon" width="20" height="20">
                                                     <use href="./images/icons.svg#social-links-icon-1"></use>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="social-item">
-                                            <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                            <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                 <svg class="social-icon" width="20" height="20">
                                                     <use href="./images/icons.svg#social-links-icon-2"></use>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="social-item">
-                                            <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                            <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                 <svg class="social-icon" width="20" height="20">
                                                     <use href="./images/icons.svg#social-links-icon-3"></use>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="social-item">
-                                            <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                            <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                 <svg class="social-icon" width="20" height="20">
                                                     <use href="./images/icons.svg#social-links-icon-4"></use>
                                                 </svg>
@@ -237,28 +254,28 @@
                                     <p lang="en" class="team-item-text">UI Designer</p>
                                     <ul class="social-list list">
                                         <li class="social-item">
-                                            <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                            <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                 <svg class="social-icon" width="20" height="20">
                                                     <use href="./images/icons.svg#social-links-icon-1"></use>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="social-item">
-                                            <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                            <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                 <svg class="social-icon" width="20" height="20">
                                                     <use href="./images/icons.svg#social-links-icon-2"></use>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="social-item">
-                                            <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                            <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                 <svg class="social-icon" width="20" height="20">
                                                     <use href="./images/icons.svg#social-links-icon-3"></use>
                                                 </svg>
                                             </a>
                                         </li>
                                         <li class="social-item">
-                                            <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                            <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                                 <svg class="social-icon" width="20" height="20">
                                                     <use href="./images/icons.svg#social-links-icon-4"></use>
                                                 </svg>
@@ -277,42 +294,42 @@
                 <h2 class="section-title">Постоянные клиенты</h2>
                 <ul class="clients-list list">
                     <li class="clients-item">
-                        <a href="" class="clients-item-link" target="_blank" rel="noopener noreferrer nofollow">
+                        <a href="" class="clients-item-link transition" target="_blank" rel="noopener noreferrer nofollow">
                             <svg class="clients-icon" width="106" height="60">
                                 <use href="images/icons.svg#clients-icon-1"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="clients-item">
-                        <a href="" class="clients-item-link" target="_blank" rel="noopener noreferrer nofollow">
+                        <a href="" class="clients-item-link transition" target="_blank" rel="noopener noreferrer nofollow">
                             <svg class="clients-icon" width="106" height="60">
                                 <use href="images/icons.svg#clients-icon-2"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="clients-item">
-                        <a href="" class="clients-item-link" target="_blank" rel="noopener noreferrer nofollow">
+                        <a href="" class="clients-item-link transition" target="_blank" rel="noopener noreferrer nofollow">
                             <svg class="clients-icon" width="106" height="60">
                                 <use href="images/icons.svg#clients-icon-3"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="clients-item">
-                        <a href="" class="clients-item-link" target="_blank" rel="noopener noreferrer nofollow">
+                        <a href="" class="clients-item-link transition" target="_blank" rel="noopener noreferrer nofollow">
                             <svg class="clients-icon" width="106" height="60">
                                 <use href="images/icons.svg#clients-icon-4"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="clients-item">
-                        <a href="" class="clients-item-link" target="_blank" rel="noopener noreferrer nofollow">
+                        <a href="" class="clients-item-link transition" target="_blank" rel="noopener noreferrer nofollow">
                             <svg class="clients-icon" width="106" height="60">
                                 <use href="images/icons.svg#clients-icon-5"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="clients-item">
-                        <a href="" class="clients-item-link" target="_blank" rel="noopener noreferrer nofollow">
+                        <a href="" class="clients-item-link transition" target="_blank" rel="noopener noreferrer nofollow">
                             <svg class="clients-icon" width="106" height="60">
                                 <use href="images/icons.svg#clients-icon-6"></use>
                             </svg>
@@ -330,8 +347,8 @@
                     <address>
                     <ul class="list address-list">
                         <li class="address-item"><a href="https://goo.gl/maps/tL1brft19ia6Mf7X9" target="_blank" rel="noopener noreferrer nofollow" class="link address-link">г. Киев, пр-т Леси Украинки, 26</a></li>
-                        <li class="address-item"><a href="mailto:info@example.com" class="link address-info" target="_blank" rel="noopener noreferrer nofollow">info@example.com</a></li>
-                        <li class="address-item"><a href="tel:+380991111111" class="link address-info" target="_blank" rel="noopener noreferrer nofollow">+38 099 111 11 11</a></li>
+                        <li class="address-item"><a href="mailto:info@example.com" class="link address-info transition" target="_blank" rel="noopener noreferrer nofollow">info@example.com</a></li>
+                        <li class="address-item"><a href="tel:+380991111111" class="link address-info transition" target="_blank" rel="noopener noreferrer nofollow">+38 099 111 11 11</a></li>
                     </ul>
                     </address>
                 </li>
@@ -340,28 +357,28 @@
                         <h3 class="footer-title">присоединяйтесь</h3>
                         <ul class="social-list list">
                             <li class="social-item">
-                                <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                     <svg class="social-icon" width="20" height="20">
                                         <use href="./images/icons.svg#social-links-icon-1"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="social-item">
-                                <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                     <svg class="social-icon" width="20" height="20">
                                         <use href="./images/icons.svg#social-links-icon-2"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="social-item">
-                                <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                     <svg class="social-icon" width="20" height="20">
                                         <use href="./images/icons.svg#social-links-icon-3"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="social-item">
-                                <a href="/" class="social-link link" target="_blank" rel="noopener noreferrer nofollow">
+                                <a href="/" class="social-link link transition" target="_blank" rel="noopener noreferrer nofollow">
                                     <svg class="social-icon" width="20" height="20">
                                         <use href="./images/icons.svg#social-links-icon-4"></use>
                                     </svg>
@@ -374,5 +391,14 @@
         </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <div class="backdrop" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close" data-modal-close>
+                <svg class="social-icon" width="18" height="18">
+                    <use href="./images/icons.svg#close-icon"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
 </body>
 </html>
